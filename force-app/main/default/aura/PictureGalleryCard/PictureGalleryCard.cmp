@@ -1,0 +1,50 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId"
+                access="global">
+
+    <aura:attribute name="fullScreen" type="Boolean" default="false" access="global"/>
+    <aura:attribute name="animations" type="Boolean" default="true" access="global"/>
+    <aura:attribute name="title" type="String" default="Picture Gallery" access="global"/>
+    <aura:attribute name="arrayFields" type="String[]" default="['Id', 'Name']" access="global"/>    
+
+    <aura:attribute name="fields" type="String" access="global"/>
+    <aura:attribute name="error" type="String" />
+    
+    <aura:attribute name="slides" type="Object[]"/>
+
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="dataRecordId" type="Id" />
+    <aura:attribute name="currentRecord" type="Object" />
+    
+	<force:recordData aura:id="service" 
+                         recordId="{!v.dataRecordId}"
+                         targetFields="{!v.currentRecord}" 
+                         fields="{!v.arrayFields}"
+                      	 recordUpdated="{!c.onRecordUpdated}"
+                      />
+    
+    <lightning:card iconName="utility:image" title="{!v.title}">
+        <aura:set attribute="actions">
+            <lightning:buttonIcon onclick="{!c.fullScreen}" size="large" iconName="utility:expand" />
+        </aura:set>
+        <c:PictureCarousel slides="{!v.slides}"/>
+        <aura:if isTrue="{!v.fullScreen==true}">
+            <div role="dialog" tabindex="-1" aria-labelledby="header43" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+              	<lightning:buttonIcon variant="bare" onclick="{!c.closeDialog}" size="large" iconName="utility:close" />
+                    <c:PictureCarousel slides="{!v.slides}"/>
+                </div>
+                
+                <!--<div class="btn slds-modal__close close x-large">-->
+                <div class="slds-button slds-modal__close close x-large">
+                
+                    <lightning:buttonIcon variant="bare" onclick="{!c.closeDialog}" size="large" iconName="utility:close" />
+                </div>
+                
+            </div>
+            <div class="slds-backdrop slds-backdrop--open"></div>
+        </aura:if>
+    </lightning:card>
+
+</aura:component>

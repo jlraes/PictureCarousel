@@ -1,0 +1,197 @@
+[
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1538724561547,
+            "changeTime": 1538724561547,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1538724561547,
+            "changeTime": 1538724561547,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1538724561547,
+            "changeTime": 1538724561547,
+            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1538724758800,
+            "changeTime": 1538724758867,
+            "contentHash": "b6b4030f8091033c3078a7b17ec4291e0e7b1d56",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1538724758829,
+            "changeTime": 1538724758898,
+            "contentHash": "8c93c93f15d23df6c8cf5e2eae57cacff8767ada",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.cmp",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2366,
+            "modifiedTime": 1529134198000,
+            "changeTime": 1529149555935,
+            "contentHash": "b8665806bf69137a9a8b00be4b239530781212c2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1529134198000,
+            "changeTime": 1529149555936,
+            "contentHash": "43c6ca14f7cd85b7b929d871194cb6292f131f8e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.css",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 302,
+            "modifiedTime": 1529134198000,
+            "changeTime": 1529149555953,
+            "contentHash": "05dd0f605a10bcbc4b41797bd3723a8040aa2461",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.design",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 379,
+            "modifiedTime": 1529134198000,
+            "changeTime": 1529149555947,
+            "contentHash": "784810f2556280e9dd0ca8a0cb95594965795419",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.svg",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCard.svg",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1800,
+            "modifiedTime": 1529134198000,
+            "changeTime": 1529149555944,
+            "contentHash": "acc4118104f5a53bb25a6a5a9bbb36b65e2417c7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCardController.js",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCardController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3834,
+            "modifiedTime": 1538724802101,
+            "changeTime": 1538724802101,
+            "contentHash": "8f02698001f9edc7ce9653754ac49ff03337d0f6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCardHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel\\force-app\\main\\default\\aura\\PictureGalleryCard\\PictureGalleryCardHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 40,
+            "modifiedTime": 1529134198000,
+            "changeTime": 1529149555954,
+            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel",
+        {
+            "state": "n",
+            "sourcePath": "D:\\DATA\\DEV\\SALESFORCE\\PROJECTS\\PictureCarousel",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1538724966916,
+            "changeTime": 1538724966916,
+            "contentHash": "fe5ee5b1d2f2b6eceb946c61b02217737659b9fc",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
